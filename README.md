@@ -23,7 +23,6 @@ Final Customer Churn Prediction App
 
 Project Organization
 
-.
 ├── Images/                             : contains images
 ├── static/                             : plots to show gauge chart, hazard and survival curve, shap values in Flask App 
 │   └── images/
