@@ -22,6 +22,7 @@ Final Customer Churn Prediction App
 
 
 Project Organization
+
 .
 ├── Images/                             : contains images
 ├── static/                             : plots to show gauge chart, hazard and survival curve, shap values in Flask App 
@@ -44,6 +45,7 @@ Project Organization
 ├── Procfile                            : procfile for app deployment
 ├── LICENSE.md                          : MIT License
 └── README.md                           : Report
+
 
 
 Customer Survival Analysis
@@ -92,6 +94,8 @@ If customer is not enrolled in services like online backup, online security, dev
 The company should traget customers who opt for internet service as their survival probability constantly descreases. Also, Fiber Optilc type of Internet Service is costly and fast compared to DSL and this might be the reason of higher customer churning.
 More offers should be given to customers who opt for month-to-month contract and company should target customers to subscribe for long-term service.
 If customer's paying method is automatic, he or she is less likely to churn. The reason is in the case of electronic check and mailed check, a customer has to make an effort to pay and it takes time.
+
+
 Survival Regression: I use cox-proportional hazard model to perform survival regression analysis on customer data. This model is used to relate several risk factors or exposures simultaneously to survival time. In a Cox proportional hazards regression model, the measure of effect is the hazard rate, which is the risk or probability of suffering the event of interest given that the participant has survived up to a specific time. The model fits the data well and the coefficients are shown below.
 
 
